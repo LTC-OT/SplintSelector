@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Flex Cuff Elbow Orthosis.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Flex Cuff Elbow Orthosis-1.jpeg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Flex Cuff Elbow Orthosis-2.jpeg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

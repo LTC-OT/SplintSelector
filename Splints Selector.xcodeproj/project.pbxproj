@@ -1,0 +1,846 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7017EB7B27E813A400D95471 /* FractureSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7017EB7A27E813A400D95471 /* FractureSelectorView.swift */; };
+		7017EB7D27E8156000D95471 /* FractureSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7017EB7C27E8156000D95471 /* FractureSelector.swift */; };
+		701D3ECB2623590200A9C5A8 /* SplintHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D3ECA2623590200A9C5A8 /* SplintHeaderView.swift */; };
+		701D3ECE2623593500A9C5A8 /* SplintRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D3ECD2623593500A9C5A8 /* SplintRowView.swift */; };
+		701D3ED12623594A00A9C5A8 /* SplintCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D3ED02623594A00A9C5A8 /* SplintCardView.swift */; };
+		701D3ED42623596500A9C5A8 /* SplintDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D3ED32623596500A9C5A8 /* SplintDetailView.swift */; };
+		701D3ED7262359F000A9C5A8 /* SplintModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D3ED6262359F000A9C5A8 /* SplintModel.swift */; };
+		701D3EDA26235CC700A9C5A8 /* SplintData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D3ED926235CC700A9C5A8 /* SplintData.swift */; };
+		7026128E25E041150077F281 /* FeatureCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7026128D25E041150077F281 /* FeatureCardView.swift */; };
+		7026129425E0419B0077F281 /* FeatureBuildingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7026129325E0419B0077F281 /* FeatureBuildingView.swift */; };
+		702B8DA827F0BD9500771C79 /* FractureSplintOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702B8DA727F0BD9500771C79 /* FractureSplintOne.swift */; };
+		70386E1B27F6A757003FBD28 /* TendonSplintOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386E1A27F6A757003FBD28 /* TendonSplintOne.swift */; };
+		70386E1D27F6AA02003FBD28 /* TendonSplintTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386E1C27F6AA02003FBD28 /* TendonSplintTwo.swift */; };
+		703CE89427FA1C3900E91602 /* TendonSplintFourteen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703CE89327FA1C3900E91602 /* TendonSplintFourteen.swift */; };
+		703CE89627FA2BD900E91602 /* TendonSplintFifteen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703CE89527FA2BD900E91602 /* TendonSplintFifteen.swift */; };
+		703EB1C02B9520EC00814605 /* StudySplintModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703EB1BF2B9520EC00814605 /* StudySplintModel.swift */; };
+		703EB1C22B9522B100814605 /* StudySplintData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703EB1C12B9522B100814605 /* StudySplintData.swift */; };
+		703EB1C42B954ABA00814605 /* StudyCaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703EB1C32B954ABA00814605 /* StudyCaseView.swift */; };
+		704327F227F8059F00EC5F4E /* TendonSplintThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704327F127F8059F00EC5F4E /* TendonSplintThree.swift */; };
+		704327F427F805CE00EC5F4E /* TendonSplintFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704327F327F805CE00EC5F4E /* TendonSplintFour.swift */; };
+		704327F627F8061900EC5F4E /* TendonSplintFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704327F527F8061900EC5F4E /* TendonSplintFive.swift */; };
+		704327F827F8069500EC5F4E /* TendonSplintSix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704327F727F8069500EC5F4E /* TendonSplintSix.swift */; };
+		704327FA27F806AD00EC5F4E /* TendonSplintSeven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704327F927F806AD00EC5F4E /* TendonSplintSeven.swift */; };
+		704327FC27F8070200EC5F4E /* TendonSplintEight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704327FB27F8070200EC5F4E /* TendonSplintEight.swift */; };
+		704327FE27F8096900EC5F4E /* TendonSplintNine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704327FD27F8096900EC5F4E /* TendonSplintNine.swift */; };
+		7043280027F8097C00EC5F4E /* TendonSplintTen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704327FF27F8097C00EC5F4E /* TendonSplintTen.swift */; };
+		7043EA3325DC7FEE007CCD31 /* SplintModelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7043EA3225DC7FEE007CCD31 /* SplintModelsView.swift */; };
+		704CF78327F266C5006639D6 /* LigamentSplintEleven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704CF78227F266C5006639D6 /* LigamentSplintEleven.swift */; };
+		704CF78527F266F1006639D6 /* LigamentSplintTwelve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704CF78427F266F1006639D6 /* LigamentSplintTwelve.swift */; };
+		704CF78727F26711006639D6 /* LigamentSplintThirteen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704CF78627F26711006639D6 /* LigamentSplintThirteen.swift */; };
+		704CF78927F26A2F006639D6 /* LigamentSplintFourteen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704CF78827F26A2F006639D6 /* LigamentSplintFourteen.swift */; };
+		7059841927F939CA001E99F1 /* TendonSplintEleven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7059841827F939CA001E99F1 /* TendonSplintEleven.swift */; };
+		7059841B27F939E1001E99F1 /* TendonSplintTwelve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7059841A27F939E1001E99F1 /* TendonSplintTwelve.swift */; };
+		7059841D27F939FA001E99F1 /* TendonSplintThirteen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7059841C27F939FA001E99F1 /* TendonSplintThirteen.swift */; };
+		7068258525E298B000152DB6 /* FeatureDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7068258425E298B000152DB6 /* FeatureDetailView.swift */; };
+		707B9FB725D9E4F0004600EB /* SplintsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707B9FB625D9E4F0004600EB /* SplintsView.swift */; };
+		707B9FBD25D9E5B8004600EB /* TerminologyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707B9FBC25D9E5B8004600EB /* TerminologyView.swift */; };
+		707B9FC025D9E5D9004600EB /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707B9FBF25D9E5D9004600EB /* AppView.swift */; };
+		708802AA25DF1903005678B7 /* FactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708802A925DF1903005678B7 /* FactsView.swift */; };
+		708802AD25DF1D17005678B7 /* FactData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708802AC25DF1D17005678B7 /* FactData.swift */; };
+		708802B025DF23FB005678B7 /* FeatureData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708802AF25DF23FB005678B7 /* FeatureData.swift */; };
+		7088922827F1635800029F97 /* LigamentSplintOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7088922727F1635800029F97 /* LigamentSplintOne.swift */; };
+		7088922A27F1636B00029F97 /* LigamentSplintTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7088922927F1636B00029F97 /* LigamentSplintTwo.swift */; };
+		7088922C27F1694400029F97 /* LigamentSplintThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7088922B27F1694400029F97 /* LigamentSplintThree.swift */; };
+		7088922E27F1696900029F97 /* LigamentSplintFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7088922D27F1696900029F97 /* LigamentSplintFour.swift */; };
+		7088923027F1699E00029F97 /* LigamentSplintFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7088922F27F1699E00029F97 /* LigamentSplintFive.swift */; };
+		7088923227F169B900029F97 /* LigamentSplintSix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7088923127F169B900029F97 /* LigamentSplintSix.swift */; };
+		7088923427F16D4600029F97 /* LigamentSplintSeven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7088923327F16D4600029F97 /* LigamentSplintSeven.swift */; };
+		7088923627F16D6100029F97 /* LigamentSplintEight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7088923527F16D6100029F97 /* LigamentSplintEight.swift */; };
+		7088923827F16D7600029F97 /* LigamentSplintNine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7088923727F16D7600029F97 /* LigamentSplintNine.swift */; };
+		708EA47F27EAC51A0021BF98 /* TendonSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708EA47E27EAC51A0021BF98 /* TendonSelector.swift */; };
+		7091857829988EA0000BDB00 /* ViewModifierFrames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7091857729988EA0000BDB00 /* ViewModifierFrames.swift */; };
+		709185812998B2EF000BDB00 /* InfoDirec1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709185802998B2EF000BDB00 /* InfoDirec1.swift */; };
+		709185832998B301000BDB00 /* InfoDirect2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709185822998B301000BDB00 /* InfoDirect2.swift */; };
+		709185852998B311000BDB00 /* InfoDirec3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709185842998B311000BDB00 /* InfoDirec3.swift */; };
+		70B9511B27EA97A300CC5E85 /* LigamentSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B9511A27EA97A300CC5E85 /* LigamentSelector.swift */; };
+		70BB86B825D9865A00639CC0 /* Splints_SelectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BB86B725D9865A00639CC0 /* Splints_SelectorApp.swift */; };
+		70BB86BA25D9865A00639CC0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BB86B925D9865A00639CC0 /* ContentView.swift */; };
+		70BB86BC25D9865A00639CC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70BB86BB25D9865A00639CC0 /* Assets.xcassets */; };
+		70BB86BF25D9865A00639CC0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70BB86BE25D9865A00639CC0 /* Preview Assets.xcassets */; };
+		70BCB6802B8BFDCE0004DE0B /* ScreenSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BCB67F2B8BFDCE0004DE0B /* ScreenSettings.swift */; };
+		70BCB6822B8BFE120004DE0B /* HomeViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BCB6812B8BFE120004DE0B /* HomeViewScreen.swift */; };
+		70D5614925DAE41400845B9A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D5614825DAE41400845B9A /* HeaderView.swift */; };
+		70D5614C25DAEDA600845B9A /* headerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D5614B25DAEDA600845B9A /* headerData.swift */; };
+		70D5614F25DAEE4D00845B9A /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D5614E25DAEE4D00845B9A /* HeaderModel.swift */; };
+		70D5615225DB088000845B9A /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D5615125DB088000845B9A /* FactModel.swift */; };
+		70D5615525DB096000845B9A /* FeatureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D5615425DB096000845B9A /* FeatureModel.swift */; };
+		70DA80EB281EF12600173228 /* FractureHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA80EA281EF12600173228 /* FractureHeader.swift */; };
+		70DA80ED281EF14000173228 /* LigamentHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA80EC281EF14000173228 /* LigamentHeader.swift */; };
+		70DA80EF281EF15500173228 /* TendonHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA80EE281EF15500173228 /* TendonHeader.swift */; };
+		70E6A00A27F0DD680059C8F5 /* FractureSplintTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E6A00927F0DD680059C8F5 /* FractureSplintTwo.swift */; };
+		70E6A00C27F0E1C30059C8F5 /* FractureSplintThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E6A00B27F0E1C30059C8F5 /* FractureSplintThree.swift */; };
+		70E6A01127F108AE0059C8F5 /* FractureSplintFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E6A01027F108AE0059C8F5 /* FractureSplintFour.swift */; };
+		70E6A01327F108D10059C8F5 /* FractureSplintFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E6A01227F108D10059C8F5 /* FractureSplintFive.swift */; };
+		70E6A01527F108EC0059C8F5 /* FractureSplintSix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E6A01427F108EC0059C8F5 /* FractureSplintSix.swift */; };
+		70E6A01727F10F550059C8F5 /* FractureSplintSeven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E6A01627F10F550059C8F5 /* FractureSplintSeven.swift */; };
+		70E6A01927F10F6B0059C8F5 /* FractureSplintEight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E6A01827F10F6B0059C8F5 /* FractureSplintEight.swift */; };
+		70E6A01B27F10F7B0059C8F5 /* FractureSplintNine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E6A01A27F10F7B0059C8F5 /* FractureSplintNine.swift */; };
+		70E6A01D27F10F8A0059C8F5 /* FractureSplintTen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E6A01C27F10F8A0059C8F5 /* FractureSplintTen.swift */; };
+		70E6A01F27F10FA50059C8F5 /* FractureSplintEleven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E6A01E27F10FA50059C8F5 /* FractureSplintEleven.swift */; };
+		70E6A02127F10FB80059C8F5 /* FractureSplintTwelve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E6A02027F10FB80059C8F5 /* FractureSplintTwelve.swift */; };
+		70E6A02327F1101B0059C8F5 /* FractureSplintThirteen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E6A02227F1101B0059C8F5 /* FractureSplintThirteen.swift */; };
+		70E6A02527F110350059C8F5 /* FractureSplintFourteen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E6A02427F110350059C8F5 /* FractureSplintFourteen.swift */; };
+		70E6A02727F110B90059C8F5 /* FractureSplintFifteen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E6A02627F110B90059C8F5 /* FractureSplintFifteen.swift */; };
+		70E6D9AF29A3038800C9893C /* WelcomeHomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E6D9AE29A3038800C9893C /* WelcomeHomeScreen.swift */; };
+		70E6D9B129A303CC00C9893C /* Developer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E6D9B029A303CC00C9893C /* Developer.swift */; };
+		70E6D9B329A3043500C9893C /* DeveloperInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E6D9B229A3043500C9893C /* DeveloperInfoView.swift */; };
+		70EF54E52BEFD19C000BFC83 /* StudyCaseScenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EF54E42BEFD19C000BFC83 /* StudyCaseScenario.swift */; };
+		70EF54E72BF0147D000BFC83 /* StudyCaseSplintRecommended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EF54E62BF0147C000BFC83 /* StudyCaseSplintRecommended.swift */; };
+		70EF54E92BF014B3000BFC83 /* StudyCaseHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EF54E82BF014B3000BFC83 /* StudyCaseHistory.swift */; };
+		70EF54EB2BF014EF000BFC83 /* BackgroundPatternView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EF54EA2BF014EF000BFC83 /* BackgroundPatternView.swift */; };
+		70EF54ED2BF01551000BFC83 /* StudyCaseSplintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EF54EC2BF01551000BFC83 /* StudyCaseSplintDescription.swift */; };
+		70EF54EF2BF0156C000BFC83 /* StudyCaseCriteria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EF54EE2BF0156C000BFC83 /* StudyCaseCriteria.swift */; };
+		70EF54F12BF015A6000BFC83 /* StudyCaseInfograph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EF54F02BF015A6000BFC83 /* StudyCaseInfograph.swift */; };
+		70EF54F32BF01620000BFC83 /* StudyCaseImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EF54F22BF01620000BFC83 /* StudyCaseImage.swift */; };
+		70EF54F52BF0171B000BFC83 /* StudyCaseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EF54F42BF0171B000BFC83 /* StudyCaseDetail.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7017EB7A27E813A400D95471 /* FractureSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractureSelectorView.swift; sourceTree = "<group>"; };
+		7017EB7C27E8156000D95471 /* FractureSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractureSelector.swift; sourceTree = "<group>"; };
+		701D3ECA2623590200A9C5A8 /* SplintHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplintHeaderView.swift; sourceTree = "<group>"; };
+		701D3ECD2623593500A9C5A8 /* SplintRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplintRowView.swift; sourceTree = "<group>"; };
+		701D3ED02623594A00A9C5A8 /* SplintCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplintCardView.swift; sourceTree = "<group>"; };
+		701D3ED32623596500A9C5A8 /* SplintDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplintDetailView.swift; sourceTree = "<group>"; };
+		701D3ED6262359F000A9C5A8 /* SplintModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplintModel.swift; sourceTree = "<group>"; };
+		701D3ED926235CC700A9C5A8 /* SplintData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplintData.swift; sourceTree = "<group>"; };
+		7026128D25E041150077F281 /* FeatureCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCardView.swift; sourceTree = "<group>"; };
+		7026129325E0419B0077F281 /* FeatureBuildingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureBuildingView.swift; sourceTree = "<group>"; };
+		702B8DA727F0BD9500771C79 /* FractureSplintOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractureSplintOne.swift; sourceTree = "<group>"; };
+		70386E1A27F6A757003FBD28 /* TendonSplintOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TendonSplintOne.swift; sourceTree = "<group>"; };
+		70386E1C27F6AA02003FBD28 /* TendonSplintTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TendonSplintTwo.swift; sourceTree = "<group>"; };
+		703CE89327FA1C3900E91602 /* TendonSplintFourteen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TendonSplintFourteen.swift; sourceTree = "<group>"; };
+		703CE89527FA2BD900E91602 /* TendonSplintFifteen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TendonSplintFifteen.swift; sourceTree = "<group>"; };
+		703EB1BF2B9520EC00814605 /* StudySplintModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySplintModel.swift; sourceTree = "<group>"; };
+		703EB1C12B9522B100814605 /* StudySplintData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySplintData.swift; sourceTree = "<group>"; };
+		703EB1C32B954ABA00814605 /* StudyCaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyCaseView.swift; sourceTree = "<group>"; };
+		704327F127F8059F00EC5F4E /* TendonSplintThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TendonSplintThree.swift; sourceTree = "<group>"; };
+		704327F327F805CE00EC5F4E /* TendonSplintFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TendonSplintFour.swift; sourceTree = "<group>"; };
+		704327F527F8061900EC5F4E /* TendonSplintFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TendonSplintFive.swift; sourceTree = "<group>"; };
+		704327F727F8069500EC5F4E /* TendonSplintSix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TendonSplintSix.swift; sourceTree = "<group>"; };
+		704327F927F806AD00EC5F4E /* TendonSplintSeven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TendonSplintSeven.swift; sourceTree = "<group>"; };
+		704327FB27F8070200EC5F4E /* TendonSplintEight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TendonSplintEight.swift; sourceTree = "<group>"; };
+		704327FD27F8096900EC5F4E /* TendonSplintNine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TendonSplintNine.swift; sourceTree = "<group>"; };
+		704327FF27F8097C00EC5F4E /* TendonSplintTen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TendonSplintTen.swift; sourceTree = "<group>"; };
+		7043EA3225DC7FEE007CCD31 /* SplintModelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplintModelsView.swift; sourceTree = "<group>"; };
+		704CF78227F266C5006639D6 /* LigamentSplintEleven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigamentSplintEleven.swift; sourceTree = "<group>"; };
+		704CF78427F266F1006639D6 /* LigamentSplintTwelve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigamentSplintTwelve.swift; sourceTree = "<group>"; };
+		704CF78627F26711006639D6 /* LigamentSplintThirteen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigamentSplintThirteen.swift; sourceTree = "<group>"; };
+		704CF78827F26A2F006639D6 /* LigamentSplintFourteen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigamentSplintFourteen.swift; sourceTree = "<group>"; };
+		7059841827F939CA001E99F1 /* TendonSplintEleven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TendonSplintEleven.swift; sourceTree = "<group>"; };
+		7059841A27F939E1001E99F1 /* TendonSplintTwelve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TendonSplintTwelve.swift; sourceTree = "<group>"; };
+		7059841C27F939FA001E99F1 /* TendonSplintThirteen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TendonSplintThirteen.swift; sourceTree = "<group>"; };
+		7068258425E298B000152DB6 /* FeatureDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureDetailView.swift; sourceTree = "<group>"; };
+		707B9FB625D9E4F0004600EB /* SplintsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplintsView.swift; sourceTree = "<group>"; };
+		707B9FBC25D9E5B8004600EB /* TerminologyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminologyView.swift; sourceTree = "<group>"; };
+		707B9FBF25D9E5D9004600EB /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		708802A925DF1903005678B7 /* FactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsView.swift; sourceTree = "<group>"; };
+		708802AC25DF1D17005678B7 /* FactData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactData.swift; sourceTree = "<group>"; };
+		708802AF25DF23FB005678B7 /* FeatureData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureData.swift; sourceTree = "<group>"; };
+		7088922727F1635800029F97 /* LigamentSplintOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigamentSplintOne.swift; sourceTree = "<group>"; };
+		7088922927F1636B00029F97 /* LigamentSplintTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigamentSplintTwo.swift; sourceTree = "<group>"; };
+		7088922B27F1694400029F97 /* LigamentSplintThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigamentSplintThree.swift; sourceTree = "<group>"; };
+		7088922D27F1696900029F97 /* LigamentSplintFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigamentSplintFour.swift; sourceTree = "<group>"; };
+		7088922F27F1699E00029F97 /* LigamentSplintFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigamentSplintFive.swift; sourceTree = "<group>"; };
+		7088923127F169B900029F97 /* LigamentSplintSix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigamentSplintSix.swift; sourceTree = "<group>"; };
+		7088923327F16D4600029F97 /* LigamentSplintSeven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigamentSplintSeven.swift; sourceTree = "<group>"; };
+		7088923527F16D6100029F97 /* LigamentSplintEight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigamentSplintEight.swift; sourceTree = "<group>"; };
+		7088923727F16D7600029F97 /* LigamentSplintNine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigamentSplintNine.swift; sourceTree = "<group>"; };
+		708EA47E27EAC51A0021BF98 /* TendonSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TendonSelector.swift; sourceTree = "<group>"; };
+		7091857729988EA0000BDB00 /* ViewModifierFrames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModifierFrames.swift; sourceTree = "<group>"; };
+		709185802998B2EF000BDB00 /* InfoDirec1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDirec1.swift; sourceTree = "<group>"; };
+		709185822998B301000BDB00 /* InfoDirect2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDirect2.swift; sourceTree = "<group>"; };
+		709185842998B311000BDB00 /* InfoDirec3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDirec3.swift; sourceTree = "<group>"; };
+		70B9511A27EA97A300CC5E85 /* LigamentSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigamentSelector.swift; sourceTree = "<group>"; };
+		70BB86B425D9865A00639CC0 /* Splints Selector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Splints Selector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70BB86B725D9865A00639CC0 /* Splints_SelectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splints_SelectorApp.swift; sourceTree = "<group>"; };
+		70BB86B925D9865A00639CC0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		70BB86BB25D9865A00639CC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70BB86BE25D9865A00639CC0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		70BB86C025D9865A00639CC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70BCB67F2B8BFDCE0004DE0B /* ScreenSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSettings.swift; sourceTree = "<group>"; };
+		70BCB6812B8BFE120004DE0B /* HomeViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewScreen.swift; sourceTree = "<group>"; };
+		70D5614825DAE41400845B9A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		70D5614B25DAEDA600845B9A /* headerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = headerData.swift; sourceTree = "<group>"; };
+		70D5614E25DAEE4D00845B9A /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
+		70D5615125DB088000845B9A /* FactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
+		70D5615425DB096000845B9A /* FeatureModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureModel.swift; sourceTree = "<group>"; };
+		70DA80EA281EF12600173228 /* FractureHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractureHeader.swift; sourceTree = "<group>"; };
+		70DA80EC281EF14000173228 /* LigamentHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigamentHeader.swift; sourceTree = "<group>"; };
+		70DA80EE281EF15500173228 /* TendonHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TendonHeader.swift; sourceTree = "<group>"; };
+		70E6A00927F0DD680059C8F5 /* FractureSplintTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractureSplintTwo.swift; sourceTree = "<group>"; };
+		70E6A00B27F0E1C30059C8F5 /* FractureSplintThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractureSplintThree.swift; sourceTree = "<group>"; };
+		70E6A01027F108AE0059C8F5 /* FractureSplintFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractureSplintFour.swift; sourceTree = "<group>"; };
+		70E6A01227F108D10059C8F5 /* FractureSplintFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractureSplintFive.swift; sourceTree = "<group>"; };
+		70E6A01427F108EC0059C8F5 /* FractureSplintSix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractureSplintSix.swift; sourceTree = "<group>"; };
+		70E6A01627F10F550059C8F5 /* FractureSplintSeven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractureSplintSeven.swift; sourceTree = "<group>"; };
+		70E6A01827F10F6B0059C8F5 /* FractureSplintEight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractureSplintEight.swift; sourceTree = "<group>"; };
+		70E6A01A27F10F7B0059C8F5 /* FractureSplintNine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractureSplintNine.swift; sourceTree = "<group>"; };
+		70E6A01C27F10F8A0059C8F5 /* FractureSplintTen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractureSplintTen.swift; sourceTree = "<group>"; };
+		70E6A01E27F10FA50059C8F5 /* FractureSplintEleven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractureSplintEleven.swift; sourceTree = "<group>"; };
+		70E6A02027F10FB80059C8F5 /* FractureSplintTwelve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractureSplintTwelve.swift; sourceTree = "<group>"; };
+		70E6A02227F1101B0059C8F5 /* FractureSplintThirteen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractureSplintThirteen.swift; sourceTree = "<group>"; };
+		70E6A02427F110350059C8F5 /* FractureSplintFourteen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractureSplintFourteen.swift; sourceTree = "<group>"; };
+		70E6A02627F110B90059C8F5 /* FractureSplintFifteen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractureSplintFifteen.swift; sourceTree = "<group>"; };
+		70E6D9AE29A3038800C9893C /* WelcomeHomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeHomeScreen.swift; sourceTree = "<group>"; };
+		70E6D9B029A303CC00C9893C /* Developer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Developer.swift; sourceTree = "<group>"; };
+		70E6D9B229A3043500C9893C /* DeveloperInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperInfoView.swift; sourceTree = "<group>"; };
+		70EF54E42BEFD19C000BFC83 /* StudyCaseScenario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyCaseScenario.swift; sourceTree = "<group>"; };
+		70EF54E62BF0147C000BFC83 /* StudyCaseSplintRecommended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyCaseSplintRecommended.swift; sourceTree = "<group>"; };
+		70EF54E82BF014B3000BFC83 /* StudyCaseHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyCaseHistory.swift; sourceTree = "<group>"; };
+		70EF54EA2BF014EF000BFC83 /* BackgroundPatternView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundPatternView.swift; sourceTree = "<group>"; };
+		70EF54EC2BF01551000BFC83 /* StudyCaseSplintDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyCaseSplintDescription.swift; sourceTree = "<group>"; };
+		70EF54EE2BF0156C000BFC83 /* StudyCaseCriteria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyCaseCriteria.swift; sourceTree = "<group>"; };
+		70EF54F02BF015A6000BFC83 /* StudyCaseInfograph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyCaseInfograph.swift; sourceTree = "<group>"; };
+		70EF54F22BF01620000BFC83 /* StudyCaseImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyCaseImage.swift; sourceTree = "<group>"; };
+		70EF54F42BF0171B000BFC83 /* StudyCaseDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyCaseDetail.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70BB86B125D9865A00639CC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7017EB7927E811E800D95471 /* Splint Selector Views */ = {
+			isa = PBXGroup;
+			children = (
+				701D68E62B5471C3008818FB /* WelcomeViews */,
+				70DA80E9281EF0F900173228 /* Headers */,
+				7017EB7A27E813A400D95471 /* FractureSelectorView.swift */,
+				7017EB7C27E8156000D95471 /* FractureSelector.swift */,
+				70B9511A27EA97A300CC5E85 /* LigamentSelector.swift */,
+				708EA47E27EAC51A0021BF98 /* TendonSelector.swift */,
+			);
+			path = "Splint Selector Views";
+			sourceTree = "<group>";
+		};
+		701D3EC9262358B200A9C5A8 /* Splint Views */ = {
+			isa = PBXGroup;
+			children = (
+				701D3ECA2623590200A9C5A8 /* SplintHeaderView.swift */,
+				701D3ECD2623593500A9C5A8 /* SplintRowView.swift */,
+				701D3ED02623594A00A9C5A8 /* SplintCardView.swift */,
+				701D3ED32623596500A9C5A8 /* SplintDetailView.swift */,
+			);
+			path = "Splint Views";
+			sourceTree = "<group>";
+		};
+		701D3EDD2623C60A00A9C5A8 /* Feature Views */ = {
+			isa = PBXGroup;
+			children = (
+				7026128D25E041150077F281 /* FeatureCardView.swift */,
+				7026129325E0419B0077F281 /* FeatureBuildingView.swift */,
+				7068258425E298B000152DB6 /* FeatureDetailView.swift */,
+			);
+			path = "Feature Views";
+			sourceTree = "<group>";
+		};
+		701D68E62B5471C3008818FB /* WelcomeViews */ = {
+			isa = PBXGroup;
+			children = (
+				70E6D9B229A3043500C9893C /* DeveloperInfoView.swift */,
+				70E6D9AE29A3038800C9893C /* WelcomeHomeScreen.swift */,
+			);
+			path = WelcomeViews;
+			sourceTree = "<group>";
+		};
+		702B8DA627F0BD6800771C79 /* RecommendationViews */ = {
+			isa = PBXGroup;
+			children = (
+				70E6A00F27F1081B0059C8F5 /* TendonSplintViews */,
+				70E6A00E27F108060059C8F5 /* LigamentSplintViews */,
+				70E6A00D27F107BD0059C8F5 /* FractureSplintViews */,
+			);
+			path = RecommendationViews;
+			sourceTree = "<group>";
+		};
+		703EB1BE2B951FC800814605 /* Study Cases */ = {
+			isa = PBXGroup;
+			children = (
+				703EB1BF2B9520EC00814605 /* StudySplintModel.swift */,
+				703EB1C12B9522B100814605 /* StudySplintData.swift */,
+				703EB1C32B954ABA00814605 /* StudyCaseView.swift */,
+				70EF54F42BF0171B000BFC83 /* StudyCaseDetail.swift */,
+			);
+			path = "Study Cases";
+			sourceTree = "<group>";
+		};
+		7091857F2998B2CC000BDB00 /* PartialViews */ = {
+			isa = PBXGroup;
+			children = (
+				709185802998B2EF000BDB00 /* InfoDirec1.swift */,
+				709185822998B301000BDB00 /* InfoDirect2.swift */,
+				709185842998B311000BDB00 /* InfoDirec3.swift */,
+			);
+			path = PartialViews;
+			sourceTree = "<group>";
+		};
+		709C2F1528D031C000F22C5A /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				7091857729988EA0000BDB00 /* ViewModifierFrames.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		70BB86AB25D9865A00639CC0 = {
+			isa = PBXGroup;
+			children = (
+				70BB86B625D9865A00639CC0 /* Splints Selector */,
+				70BB86B525D9865A00639CC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70BB86B525D9865A00639CC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70BB86B425D9865A00639CC0 /* Splints Selector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70BB86B625D9865A00639CC0 /* Splints Selector */ = {
+			isa = PBXGroup;
+			children = (
+				70EF54E32BEFD0F2000BFC83 /* Alternative */,
+				703EB1BE2B951FC800814605 /* Study Cases */,
+				7091857F2998B2CC000BDB00 /* PartialViews */,
+				709C2F1528D031C000F22C5A /* ViewModifiers */,
+				702B8DA627F0BD6800771C79 /* RecommendationViews */,
+				7017EB7927E811E800D95471 /* Splint Selector Views */,
+				701D3EDD2623C60A00A9C5A8 /* Feature Views */,
+				701D3EC9262358B200A9C5A8 /* Splint Views */,
+				70BB86C925D9869C00639CC0 /* Main View */,
+				70BB86C825D9867900639CC0 /* Data */,
+				70BB86C725D9866F00639CC0 /* Model */,
+				70BB86BB25D9865A00639CC0 /* Assets.xcassets */,
+				70BB86C025D9865A00639CC0 /* Info.plist */,
+				70BB86BD25D9865A00639CC0 /* Preview Content */,
+			);
+			path = "Splints Selector";
+			sourceTree = "<group>";
+		};
+		70BB86BD25D9865A00639CC0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				70BB86BE25D9865A00639CC0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		70BB86C725D9866F00639CC0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				70D5614E25DAEE4D00845B9A /* HeaderModel.swift */,
+				70D5615125DB088000845B9A /* FactModel.swift */,
+				70D5615425DB096000845B9A /* FeatureModel.swift */,
+				701D3ED6262359F000A9C5A8 /* SplintModel.swift */,
+				70E6D9B029A303CC00C9893C /* Developer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70BB86C825D9867900639CC0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				70D5614B25DAEDA600845B9A /* headerData.swift */,
+				708802AC25DF1D17005678B7 /* FactData.swift */,
+				708802AF25DF23FB005678B7 /* FeatureData.swift */,
+				701D3ED926235CC700A9C5A8 /* SplintData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		70BB86C925D9869C00639CC0 /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				70BB86B725D9865A00639CC0 /* Splints_SelectorApp.swift */,
+				707B9FBF25D9E5D9004600EB /* AppView.swift */,
+				707B9FB625D9E4F0004600EB /* SplintsView.swift */,
+				70BB86B925D9865A00639CC0 /* ContentView.swift */,
+				708802A925DF1903005678B7 /* FactsView.swift */,
+				7043EA3225DC7FEE007CCD31 /* SplintModelsView.swift */,
+				70D5614825DAE41400845B9A /* HeaderView.swift */,
+				707B9FBC25D9E5B8004600EB /* TerminologyView.swift */,
+				70BCB67F2B8BFDCE0004DE0B /* ScreenSettings.swift */,
+				70BCB6812B8BFE120004DE0B /* HomeViewScreen.swift */,
+			);
+			path = "Main View";
+			sourceTree = "<group>";
+		};
+		70DA80E9281EF0F900173228 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				70DA80EA281EF12600173228 /* FractureHeader.swift */,
+				70DA80EC281EF14000173228 /* LigamentHeader.swift */,
+				70DA80EE281EF15500173228 /* TendonHeader.swift */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		70E6A00D27F107BD0059C8F5 /* FractureSplintViews */ = {
+			isa = PBXGroup;
+			children = (
+				702B8DA727F0BD9500771C79 /* FractureSplintOne.swift */,
+				70E6A00927F0DD680059C8F5 /* FractureSplintTwo.swift */,
+				70E6A00B27F0E1C30059C8F5 /* FractureSplintThree.swift */,
+				70E6A01027F108AE0059C8F5 /* FractureSplintFour.swift */,
+				70E6A01227F108D10059C8F5 /* FractureSplintFive.swift */,
+				70E6A01427F108EC0059C8F5 /* FractureSplintSix.swift */,
+				70E6A01627F10F550059C8F5 /* FractureSplintSeven.swift */,
+				70E6A01827F10F6B0059C8F5 /* FractureSplintEight.swift */,
+				70E6A01A27F10F7B0059C8F5 /* FractureSplintNine.swift */,
+				70E6A01C27F10F8A0059C8F5 /* FractureSplintTen.swift */,
+				70E6A01E27F10FA50059C8F5 /* FractureSplintEleven.swift */,
+				70E6A02027F10FB80059C8F5 /* FractureSplintTwelve.swift */,
+				70E6A02227F1101B0059C8F5 /* FractureSplintThirteen.swift */,
+				70E6A02427F110350059C8F5 /* FractureSplintFourteen.swift */,
+				70E6A02627F110B90059C8F5 /* FractureSplintFifteen.swift */,
+			);
+			path = FractureSplintViews;
+			sourceTree = "<group>";
+		};
+		70E6A00E27F108060059C8F5 /* LigamentSplintViews */ = {
+			isa = PBXGroup;
+			children = (
+				7088922727F1635800029F97 /* LigamentSplintOne.swift */,
+				7088922927F1636B00029F97 /* LigamentSplintTwo.swift */,
+				7088922B27F1694400029F97 /* LigamentSplintThree.swift */,
+				7088922D27F1696900029F97 /* LigamentSplintFour.swift */,
+				7088922F27F1699E00029F97 /* LigamentSplintFive.swift */,
+				7088923127F169B900029F97 /* LigamentSplintSix.swift */,
+				7088923327F16D4600029F97 /* LigamentSplintSeven.swift */,
+				7088923527F16D6100029F97 /* LigamentSplintEight.swift */,
+				7088923727F16D7600029F97 /* LigamentSplintNine.swift */,
+				704CF78227F266C5006639D6 /* LigamentSplintEleven.swift */,
+				704CF78427F266F1006639D6 /* LigamentSplintTwelve.swift */,
+				704CF78627F26711006639D6 /* LigamentSplintThirteen.swift */,
+				704CF78827F26A2F006639D6 /* LigamentSplintFourteen.swift */,
+			);
+			path = LigamentSplintViews;
+			sourceTree = "<group>";
+		};
+		70E6A00F27F1081B0059C8F5 /* TendonSplintViews */ = {
+			isa = PBXGroup;
+			children = (
+				70386E1A27F6A757003FBD28 /* TendonSplintOne.swift */,
+				70386E1C27F6AA02003FBD28 /* TendonSplintTwo.swift */,
+				704327F127F8059F00EC5F4E /* TendonSplintThree.swift */,
+				704327F327F805CE00EC5F4E /* TendonSplintFour.swift */,
+				704327F527F8061900EC5F4E /* TendonSplintFive.swift */,
+				704327F727F8069500EC5F4E /* TendonSplintSix.swift */,
+				704327F927F806AD00EC5F4E /* TendonSplintSeven.swift */,
+				704327FB27F8070200EC5F4E /* TendonSplintEight.swift */,
+				704327FD27F8096900EC5F4E /* TendonSplintNine.swift */,
+				704327FF27F8097C00EC5F4E /* TendonSplintTen.swift */,
+				7059841827F939CA001E99F1 /* TendonSplintEleven.swift */,
+				7059841A27F939E1001E99F1 /* TendonSplintTwelve.swift */,
+				7059841C27F939FA001E99F1 /* TendonSplintThirteen.swift */,
+				703CE89327FA1C3900E91602 /* TendonSplintFourteen.swift */,
+				703CE89527FA2BD900E91602 /* TendonSplintFifteen.swift */,
+			);
+			path = TendonSplintViews;
+			sourceTree = "<group>";
+		};
+		70EF54E32BEFD0F2000BFC83 /* Alternative */ = {
+			isa = PBXGroup;
+			children = (
+				70EF54E42BEFD19C000BFC83 /* StudyCaseScenario.swift */,
+				70EF54E62BF0147C000BFC83 /* StudyCaseSplintRecommended.swift */,
+				70EF54E82BF014B3000BFC83 /* StudyCaseHistory.swift */,
+				70EF54EA2BF014EF000BFC83 /* BackgroundPatternView.swift */,
+				70EF54EC2BF01551000BFC83 /* StudyCaseSplintDescription.swift */,
+				70EF54EE2BF0156C000BFC83 /* StudyCaseCriteria.swift */,
+				70EF54F02BF015A6000BFC83 /* StudyCaseInfograph.swift */,
+				70EF54F22BF01620000BFC83 /* StudyCaseImage.swift */,
+			);
+			path = Alternative;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70BB86B325D9865A00639CC0 /* Splints Selector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70BB86C325D9865A00639CC0 /* Build configuration list for PBXNativeTarget "Splints Selector" */;
+			buildPhases = (
+				70BB86B025D9865A00639CC0 /* Sources */,
+				70BB86B125D9865A00639CC0 /* Frameworks */,
+				70BB86B225D9865A00639CC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Splints Selector";
+			productName = Splints;
+			productReference = 70BB86B425D9865A00639CC0 /* Splints Selector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70BB86AC25D9865A00639CC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					70BB86B325D9865A00639CC0 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 70BB86AF25D9865A00639CC0 /* Build configuration list for PBXProject "Splints Selector" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70BB86AB25D9865A00639CC0;
+			productRefGroup = 70BB86B525D9865A00639CC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70BB86B325D9865A00639CC0 /* Splints Selector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70BB86B225D9865A00639CC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70BB86BF25D9865A00639CC0 /* Preview Assets.xcassets in Resources */,
+				70BB86BC25D9865A00639CC0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70BB86B025D9865A00639CC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707B9FBD25D9E5B8004600EB /* TerminologyView.swift in Sources */,
+				70BCB6802B8BFDCE0004DE0B /* ScreenSettings.swift in Sources */,
+				708802AD25DF1D17005678B7 /* FactData.swift in Sources */,
+				70EF54E52BEFD19C000BFC83 /* StudyCaseScenario.swift in Sources */,
+				70D5614F25DAEE4D00845B9A /* HeaderModel.swift in Sources */,
+				70EF54EF2BF0156C000BFC83 /* StudyCaseCriteria.swift in Sources */,
+				70DA80EF281EF15500173228 /* TendonHeader.swift in Sources */,
+				7026129425E0419B0077F281 /* FeatureBuildingView.swift in Sources */,
+				7043EA3325DC7FEE007CCD31 /* SplintModelsView.swift in Sources */,
+				704CF78927F26A2F006639D6 /* LigamentSplintFourteen.swift in Sources */,
+				70EF54F52BF0171B000BFC83 /* StudyCaseDetail.swift in Sources */,
+				70E6A01527F108EC0059C8F5 /* FractureSplintSix.swift in Sources */,
+				7088922A27F1636B00029F97 /* LigamentSplintTwo.swift in Sources */,
+				70BB86BA25D9865A00639CC0 /* ContentView.swift in Sources */,
+				7088923827F16D7600029F97 /* LigamentSplintNine.swift in Sources */,
+				70EF54EB2BF014EF000BFC83 /* BackgroundPatternView.swift in Sources */,
+				7088922827F1635800029F97 /* LigamentSplintOne.swift in Sources */,
+				70E6A01927F10F6B0059C8F5 /* FractureSplintEight.swift in Sources */,
+				70D5615225DB088000845B9A /* FactModel.swift in Sources */,
+				708EA47F27EAC51A0021BF98 /* TendonSelector.swift in Sources */,
+				70E6D9B329A3043500C9893C /* DeveloperInfoView.swift in Sources */,
+				7088923427F16D4600029F97 /* LigamentSplintSeven.swift in Sources */,
+				707B9FC025D9E5D9004600EB /* AppView.swift in Sources */,
+				70E6D9AF29A3038800C9893C /* WelcomeHomeScreen.swift in Sources */,
+				7059841B27F939E1001E99F1 /* TendonSplintTwelve.swift in Sources */,
+				703CE89427FA1C3900E91602 /* TendonSplintFourteen.swift in Sources */,
+				704CF78527F266F1006639D6 /* LigamentSplintTwelve.swift in Sources */,
+				70EF54E92BF014B3000BFC83 /* StudyCaseHistory.swift in Sources */,
+				70E6A01327F108D10059C8F5 /* FractureSplintFive.swift in Sources */,
+				703EB1C02B9520EC00814605 /* StudySplintModel.swift in Sources */,
+				70EF54ED2BF01551000BFC83 /* StudyCaseSplintDescription.swift in Sources */,
+				701D3ED12623594A00A9C5A8 /* SplintCardView.swift in Sources */,
+				701D3ED42623596500A9C5A8 /* SplintDetailView.swift in Sources */,
+				704327F227F8059F00EC5F4E /* TendonSplintThree.swift in Sources */,
+				704327FC27F8070200EC5F4E /* TendonSplintEight.swift in Sources */,
+				7059841927F939CA001E99F1 /* TendonSplintEleven.swift in Sources */,
+				708802B025DF23FB005678B7 /* FeatureData.swift in Sources */,
+				704327FE27F8096900EC5F4E /* TendonSplintNine.swift in Sources */,
+				70E6A02727F110B90059C8F5 /* FractureSplintFifteen.swift in Sources */,
+				70E6D9B129A303CC00C9893C /* Developer.swift in Sources */,
+				7017EB7D27E8156000D95471 /* FractureSelector.swift in Sources */,
+				704327F427F805CE00EC5F4E /* TendonSplintFour.swift in Sources */,
+				702B8DA827F0BD9500771C79 /* FractureSplintOne.swift in Sources */,
+				70E6A01B27F10F7B0059C8F5 /* FractureSplintNine.swift in Sources */,
+				704327F627F8061900EC5F4E /* TendonSplintFive.swift in Sources */,
+				7059841D27F939FA001E99F1 /* TendonSplintThirteen.swift in Sources */,
+				70EF54E72BF0147D000BFC83 /* StudyCaseSplintRecommended.swift in Sources */,
+				70E6A00A27F0DD680059C8F5 /* FractureSplintTwo.swift in Sources */,
+				7043280027F8097C00EC5F4E /* TendonSplintTen.swift in Sources */,
+				709185812998B2EF000BDB00 /* InfoDirec1.swift in Sources */,
+				70386E1B27F6A757003FBD28 /* TendonSplintOne.swift in Sources */,
+				704CF78727F26711006639D6 /* LigamentSplintThirteen.swift in Sources */,
+				70E6A01727F10F550059C8F5 /* FractureSplintSeven.swift in Sources */,
+				70EF54F32BF01620000BFC83 /* StudyCaseImage.swift in Sources */,
+				7088923227F169B900029F97 /* LigamentSplintSix.swift in Sources */,
+				70E6A01D27F10F8A0059C8F5 /* FractureSplintTen.swift in Sources */,
+				70BCB6822B8BFE120004DE0B /* HomeViewScreen.swift in Sources */,
+				70DA80EB281EF12600173228 /* FractureHeader.swift in Sources */,
+				70E6A00C27F0E1C30059C8F5 /* FractureSplintThree.swift in Sources */,
+				704327FA27F806AD00EC5F4E /* TendonSplintSeven.swift in Sources */,
+				701D3ECE2623593500A9C5A8 /* SplintRowView.swift in Sources */,
+				701D3ED7262359F000A9C5A8 /* SplintModel.swift in Sources */,
+				70E6A02127F10FB80059C8F5 /* FractureSplintTwelve.swift in Sources */,
+				701D3ECB2623590200A9C5A8 /* SplintHeaderView.swift in Sources */,
+				70E6A02327F1101B0059C8F5 /* FractureSplintThirteen.swift in Sources */,
+				707B9FB725D9E4F0004600EB /* SplintsView.swift in Sources */,
+				7091857829988EA0000BDB00 /* ViewModifierFrames.swift in Sources */,
+				70BB86B825D9865A00639CC0 /* Splints_SelectorApp.swift in Sources */,
+				701D3EDA26235CC700A9C5A8 /* SplintData.swift in Sources */,
+				7068258525E298B000152DB6 /* FeatureDetailView.swift in Sources */,
+				7088923027F1699E00029F97 /* LigamentSplintFive.swift in Sources */,
+				703CE89627FA2BD900E91602 /* TendonSplintFifteen.swift in Sources */,
+				70DA80ED281EF14000173228 /* LigamentHeader.swift in Sources */,
+				708802AA25DF1903005678B7 /* FactsView.swift in Sources */,
+				70B9511B27EA97A300CC5E85 /* LigamentSelector.swift in Sources */,
+				7088922E27F1696900029F97 /* LigamentSplintFour.swift in Sources */,
+				70EF54F12BF015A6000BFC83 /* StudyCaseInfograph.swift in Sources */,
+				7017EB7B27E813A400D95471 /* FractureSelectorView.swift in Sources */,
+				703EB1C22B9522B100814605 /* StudySplintData.swift in Sources */,
+				704CF78327F266C5006639D6 /* LigamentSplintEleven.swift in Sources */,
+				70E6A02527F110350059C8F5 /* FractureSplintFourteen.swift in Sources */,
+				70D5614C25DAEDA600845B9A /* headerData.swift in Sources */,
+				70E6A01127F108AE0059C8F5 /* FractureSplintFour.swift in Sources */,
+				70D5614925DAE41400845B9A /* HeaderView.swift in Sources */,
+				703EB1C42B954ABA00814605 /* StudyCaseView.swift in Sources */,
+				709185852998B311000BDB00 /* InfoDirec3.swift in Sources */,
+				7088922C27F1694400029F97 /* LigamentSplintThree.swift in Sources */,
+				7026128E25E041150077F281 /* FeatureCardView.swift in Sources */,
+				70386E1D27F6AA02003FBD28 /* TendonSplintTwo.swift in Sources */,
+				704327F827F8069500EC5F4E /* TendonSplintSix.swift in Sources */,
+				70E6A01F27F10FA50059C8F5 /* FractureSplintEleven.swift in Sources */,
+				7088923627F16D6100029F97 /* LigamentSplintEight.swift in Sources */,
+				70D5615525DB096000845B9A /* FeatureModel.swift in Sources */,
+				709185832998B301000BDB00 /* InfoDirect2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		70BB86C125D9865A00639CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		70BB86C225D9865A00639CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70BB86C425D9865A00639CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Splints Selector/Preview Content\"";
+				DEVELOPMENT_TEAM = F8LUJQQRDY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Splints Selector/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Splints Selector";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jaime-Fagnilli.Splints-Selector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		70BB86C525D9865A00639CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Splints Selector/Preview Content\"";
+				DEVELOPMENT_TEAM = F8LUJQQRDY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Splints Selector/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Splints Selector";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jaime-Fagnilli.Splints-Selector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70BB86AF25D9865A00639CC0 /* Build configuration list for PBXProject "Splints Selector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70BB86C125D9865A00639CC0 /* Debug */,
+				70BB86C225D9865A00639CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70BB86C325D9865A00639CC0 /* Build configuration list for PBXNativeTarget "Splints Selector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70BB86C425D9865A00639CC0 /* Debug */,
+				70BB86C525D9865A00639CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70BB86AC25D9865A00639CC0 /* Project object */;
+}

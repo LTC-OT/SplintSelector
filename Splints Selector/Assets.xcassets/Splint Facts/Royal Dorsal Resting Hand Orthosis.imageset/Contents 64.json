@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Royal Dorsal Resting Hand Orthosis.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Royal Dorsal Resting Hand Orthosis 7.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Royal Dorsal Resting Hand Orthosis 8.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

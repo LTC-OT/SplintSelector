@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "dyanamic-splits-saeboflex.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "dyanamic-splits-saeboflex 7.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "dyanamic-splits-saeboflex 8.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

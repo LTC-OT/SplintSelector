@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Double Sugar-Tong Splint.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Double Sugar-Tong Splint 7.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Double Sugar-Tong Splint 8.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
