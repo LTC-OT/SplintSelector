@@ -64,7 +64,6 @@ struct SplintsView: View {
                         .foregroundColor(Color("ColorGreenMedium"))
                         .multilineTextAlignment(.leading)
                         .frame(maxWidth: 350, minHeight: 250)
-                        //                        .shadow(color: .gray, radius: 2, x: 3, y: 3)
                         .padding(.horizontal, 40)
                     }
                     VStack {

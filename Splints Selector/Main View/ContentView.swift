@@ -124,7 +124,6 @@ struct TitleModifier: ViewModifier {
 
 #Preview {
         ContentView(headers: headersData, facts: factsData, feature: featureData)
-        
-        
+ 
     }
 

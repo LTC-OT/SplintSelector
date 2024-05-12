@@ -17,26 +17,26 @@ struct StudyCaseInfograph: View {
             ScrollView {
                 VStack(alignment: .center, spacing: 20) {
                     StudyCaseScenario(studyCase: studyCase)
-//                   StudyCaseScenario()
+
                     
                 HStack(spacing: 10) {
                         
                     StudyCaseHistory(studyCase: studyCase)
-//                    StudyCaseHistory()
+
                         
                     VStack {
                             StudyCaseSplintRecommended(studyCase: studyCase)
-//                        StudyCaseSplintRecommended()
+
                             StudyCaseImage(studyCase: studyCase)
-//                        StudyCaseImage()
+
                         }
                     }
                     .padding(.leading, 10)
                     
                     StudyCaseSplintDescription(studyCase: studyCase)
-//                    StudyCaseSplintDescription()
+
                     StudyCaseCriteria(studyCase: studyCase)
-//                    StudyCaseCriteria()
+
                 }
                 .padding()
                 .padding(.top, 40)
@@ -49,7 +49,7 @@ struct StudyCaseInfograph: View {
 
 #Preview {
     StudyCaseInfograph(studyCase: studyData[0])
-//    StudyCaseInfograph()
+
 }
 
 

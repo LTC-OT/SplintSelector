@@ -11,8 +11,6 @@ import SwiftUI
 
 struct StudyCaseView: View {
     @State var studyCases: [StudyCases] = studyData
- 
-    
     @State private var selectedStudyCase: StudyCases?
     @State private var isDetailViewPresented: Bool = false
     
@@ -58,9 +56,6 @@ struct StudyCaseView: View {
                                         .scaleEffect(isDetailViewPresented ? 0.99 : 1.0)
                                         .animation(.easeInOut(duration: 0.5), value: isDetailViewPresented)
                                     
-                                    
-                                    
-                                    
                                     // HEADLINE
                                     Text(" Case Scenario")
                                     
@@ -85,9 +80,7 @@ struct StudyCaseView: View {
                                 if let selectedStudyCase = selectedStudyCase {
                            
                                     StudyCaseInfograph(studyCase: selectedStudyCase)
-//                                StudyCaseDetail(studyCase: selectedStudyCase)
                                         .presentationDragIndicator(.visible)
-
                                         .presentationDetents([.large])
                                 }
                             }

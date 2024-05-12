@@ -133,7 +133,6 @@ struct IconModifier: ViewModifier {
 
 #Preview  {
        SplintModelsView()
-//            .previewLayout(.fixed(width: 414, height: 280))
         
     }
 

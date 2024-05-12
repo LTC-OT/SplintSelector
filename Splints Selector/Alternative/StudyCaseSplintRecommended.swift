@@ -54,5 +54,5 @@ struct StudyCaseSplintRecommended: View {
 
 #Preview {
     StudyCaseSplintRecommended(studyCase: studyData[0])
-//    StudyCaseSplintRecommended()
+
 }

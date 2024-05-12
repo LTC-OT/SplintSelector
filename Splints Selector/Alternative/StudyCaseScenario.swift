@@ -55,6 +55,6 @@ struct StudyCaseScenario: View {
 
 #Preview {
   StudyCaseScenario(studyCase: studyData[0])
-//    StudyCaseScenario()
+
    
 }

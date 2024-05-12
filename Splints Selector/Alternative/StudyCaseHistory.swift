@@ -57,5 +57,5 @@ struct StudyCaseHistory: View {
 
 #Preview {
     StudyCaseHistory(studyCase: studyData[0])
-//    StudyCaseHistory()
+
 }

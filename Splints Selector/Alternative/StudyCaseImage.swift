@@ -55,6 +55,6 @@ struct StudyCaseImage: View {
 }
 
 #Preview {
-//    StudyCaseImage(studyCase: studyData[0])
+
     StudyCaseView()
 }

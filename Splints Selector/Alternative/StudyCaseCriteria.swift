@@ -53,5 +53,5 @@ struct StudyCaseCriteria: View {
 
 #Preview {
     StudyCaseCriteria(studyCase: studyData[0])
-//    StudyCaseCriteria()
+
 }

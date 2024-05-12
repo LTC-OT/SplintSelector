@@ -53,5 +53,5 @@ struct StudyCaseSplintDescription: View {
 
 #Preview {
     StudyCaseSplintDescription(studyCase: studyData[0])
-//    StudyCaseSplintDescription()
+
 }
